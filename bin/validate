@@ -7,7 +7,3 @@ echo "puppet parser validate $PUPPET_CODE"
 cat $PUPPET_CODE | ssh puppet.asdflkjh.com puppet parser validate
 echo "==================================="
 
-# puppet-lint <path-to-module>
-# echo "puppet-lint $PUPPET_CODE"
-# cat $PUPPET_CODE | ssh puppet.asdflkjh.com puppet-lint
-# echo "==================================="
